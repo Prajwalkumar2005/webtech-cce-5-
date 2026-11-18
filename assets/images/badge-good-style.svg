@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <path id="circlePath" d="M 100, 100 m -68, 0 a 68,68 0 1,1 136,0 a 68,68 0 1,1 -136,0" />
+    <filter id="badge-shadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#44121D" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <g filter="url(#badge-shadow)">
+    <!-- Outer scalloped or smooth badge -->
+    <circle cx="100" cy="100" r="92" fill="#8F1728" stroke="#FFF8F2" stroke-width="4"/>
+    <circle cx="100" cy="100" r="82" fill="none" stroke="#F3D9D7" stroke-width="1.5" stroke-dasharray="4,3"/>
+    
+    <!-- Circular text -->
+    <text fill="#FFF8F2" font-family="'DM Sans', sans-serif" font-weight="700" font-size="11.5" letter-spacing="3.2">
+      <textPath href="#circlePath" startOffset="0%">
+        GOOD STYLE • GOOD MOOD • BAGÉRA • 
+      </textPath>
+    </text>
+
+    <!-- Center inner circle -->
+    <circle cx="100" cy="100" r="46" fill="#44121D" stroke="#FFF8F2" stroke-width="2"/>
+    
+    <!-- Center star and sparkle -->
+    <polygon points="100,74 105,92 122,94 108,104 113,122 100,111 87,122 92,104 78,94 95,92" fill="#E5B26E"/>
+    <circle cx="100" cy="100" r="3" fill="#FFF8F2"/>
+  </g>
+</svg>
