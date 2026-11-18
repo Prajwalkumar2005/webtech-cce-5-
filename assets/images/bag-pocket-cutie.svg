@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <filter id="pcShd" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#44121D" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="#FFFDFB" rx="24"/>
+  <circle cx="200" cy="200" r="130" fill="#F3D9D7" opacity="0.5"/>
+
+  <g filter="url(#pcShd)">
+    <!-- Gold chain strap -->
+    <path d="M160,210 C160,110 240,110 240,210" fill="none" stroke="#E5B26E" stroke-width="7" stroke-dasharray="8,4" stroke-linecap="round"/>
+    
+    <!-- Micro Bag Body in Blush Cherry -->
+    <rect x="145" y="210" width="110" height="90" rx="20" fill="#8F1728" stroke="#44121D" stroke-width="2"/>
+    
+    <!-- Flap with cute heart clasp -->
+    <path d="M145,210 L255,210 L245,255 L155,255 Z" fill="#A81D32"/>
+    
+    <!-- Mini Heart Clasp -->
+    <path d="M200,260 C200,260 192,252 192,247 C192,243 195,241 198,242 C200,243 200,244 200,244 C200,244 200,243 202,242 C205,241 208,243 208,247 C208,252 200,260 200,260 Z" fill="#E5B26E"/>
+
+    <!-- Pearl handle detail -->
+    <circle cx="170" cy="195" r="5" fill="#FFF8F2" stroke="#E9BFC2" stroke-width="1"/>
+    <circle cx="182" cy="188" r="5" fill="#FFF8F2" stroke="#E9BFC2" stroke-width="1"/>
+    <circle cx="200" cy="184" r="6" fill="#FFF8F2" stroke="#E9BFC2" stroke-width="1"/>
+    <circle cx="218" cy="188" r="5" fill="#FFF8F2" stroke="#E9BFC2" stroke-width="1"/>
+    <circle cx="230" cy="195" r="5" fill="#FFF8F2" stroke="#E9BFC2" stroke-width="1"/>
+  </g>
+</svg>
