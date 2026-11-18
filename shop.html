@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop All Bags &amp; Accessories | BAGÉRA</title>
+  <meta name="description" content="Explore our full collection of affordable trendy handbags, mini bags, totes, baguette shoulder bags and aesthetic sticker packs. Priced ₹50 to ₹199.">
+  
+  <link rel="icon" type="image/svg+xml" href="assets/images/sticker-cherries.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <aside class="announcement-bar" role="banner">
+    Little bags. Big personality. Free delivery on orders over ₹299 ✨
+  </aside>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="container-wide">
+      <nav class="navbar" aria-label="Main Navigation">
+        <a href="index.html" class="site-logo">
+          BAGÉRA<span class="logo-dot"></span>
+        </a>
+
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="shop.html" class="nav-link active">Shop All</a></li>
+          <li><a href="shop.html#categories" class="nav-link">Collections</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="nav-action-btn search-modal-trigger" aria-label="Search Catalog">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+
+          <button class="nav-action-btn wishlist-drawer-trigger" aria-label="View Wishlist">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+            <span class="badge-count wishlist-count-badge" style="display:none;">0</span>
+          </button>
+
+          <button class="nav-action-btn cart-drawer-trigger" aria-label="Shopping Bag">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+            <span class="badge-count cart-count-badge" style="display:none;">0</span>
+          </button>
+
+          <button class="mobile-menu-toggle" id="mobile-menu-toggle-btn" aria-label="Open Mobile Menu">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Shop Hero Banner -->
+  <section class="shop-hero-banner">
+    <div class="container">
+      <span class="section-eyebrow">ALL PIECES</span>
+      <h1 class="section-title">The Complete BAGÉRA Studio</h1>
+      <p class="section-subtitle">Discover handcrafted everyday totes, chic shoulder baguettes, micro-mini cuties, and our viral laptop sticker club.</p>
+    </div>
+  </section>
+
+  <!-- Main Catalog & Filter Layout -->
+  <main class="container">
+    <div class="shop-layout">
+      <!-- Left Sidebar: Filters -->
+      <aside class="filter-sidebar">
+        <!-- Text Search Inside Shop -->
+        <div class="filter-group">
+          <h3 class="filter-title">Quick Search</h3>
+          <input type="text" id="shop-search-input" class="checkout-input" placeholder="Type bag name...">
+        </div>
+
+        <!-- Category Filters -->
+        <div class="filter-group">
+          <h3 class="filter-title">Categories</h3>
+          <ul class="filter-list">
+            <li>
+              <label class="filter-label">
+                <input type="checkbox" class="filter-checkbox filter-category-input" value="all" checked>
+                <span>All Categories</span>
+              </label>
+            </li>
+            <li>
+              <label class="filter-label">
+                <input type="checkbox" class="filter-checkbox filter-category-input" value="Mini Bags">
+                <span>Mini Bags</span>
+              </label>
+            </li>
+            <li>
+              <label class="filter-label">
+                <input type="checkbox" class="filter-checkbox filter-category-input" value="Tote Bags">
+                <span>Tote Bags</span>
+              </label>
+            </li>
+            <li>
+              <label class="filter-label">
+                <input type="checkbox" class="filter-checkbox filter-category-input" value="Shoulder Bags">
+                <span>Shoulder Bags</span>
+              </label>
+            </li>
+            <li>
+              <label class="filter-label">
+                <input type="checkbox" class="filter-checkbox filter-category-input" value="Sling Bags">
+                <span>Sling Bags</span>
+              </label>
+            </li>
+            <li>
+              <label class="filter-label">
+                <input type="checkbox" class="filter-checkbox filter-category-input" value="Everyday Bags">
+                <span>Everyday Bags</span>
+              </label>
+            </li>
+            <li>
+              <label class="filter-label">
+                <input type="checkbox" class="filter-checkbox filter-category-input" value="Cute Accessories">
+                <span>Cute Accessories</span>
+              </label>
+            </li>
+            <li>
+              <label class="filter-label">
+                <input type="checkbox" class="filter-checkbox filter-category-input" value="Sticker Pack">
+                <span>Sticker Packs</span>
+              </label>
+            </li>
+            <li>
+              <label class="filter-label">
+                <input type="checkbox" class="filter-checkbox filter-category-input" value="Sticker">
+                <span>Single Stickers</span>
+              </label>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Price Range Slider (₹50 to ₹199) -->
+        <div class="filter-group">
+          <h3 class="filter-title">Max Price</h3>
+          <input type="range" id="filter-price-range" class="price-range-slider" min="50" max="199" step="5" value="199">
+          <div class="price-range-display">
+            <span>₹50</span>
+            <span id="filter-price-display">₹199</span>
+          </div>
+        </div>
+
+        <!-- Special Filters -->
+        <div class="filter-group">
+          <h3 class="filter-title">Attributes</h3>
+          <ul class="filter-list">
+            <li>
+              <label class="filter-label">
+                <input type="checkbox" id="filter-new-arrivals" class="filter-checkbox">
+                <span>New Drops Only ✨</span>
+              </label>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Reset Button -->
+        <button id="reset-filters-btn" class="btn btn-secondary btn-sm" style="width: 100%; margin-top: 10px;">
+          Reset All Filters ↺
+        </button>
+      </aside>
+
+      <!-- Right Main: Product Grid -->
+      <section>
+        <!-- Toolbar: Count and Sorting -->
+        <div class="shop-toolbar">
+          <div id="shop-results-count" style="font-weight: 600; color: var(--body-muted);">
+            Showing all lovely pieces
+          </div>
+          <div>
+            <label for="shop-sort-select" style="font-size:0.85rem; color:var(--body-muted); margin-right:8px;">Sort by:</label>
+            <select id="shop-sort-select" class="shop-sort-select">
+              <option value="featured">Featured / Curated</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+              <option value="newest">Newest Drops First</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Products Grid Container -->
+        <div class="product-grid" id="shop-products-grid"></div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Newsletter Section -->
+  <section class="section-padding newsletter-section">
+    <div class="container">
+      <div class="newsletter-box">
+        <span class="section-eyebrow" style="background: rgba(255,255,255,0.15); color: #FFF8F2;">VIP CLUB</span>
+        <h2>Get on the list, cutie.</h2>
+        <p>New drops, sweet deals and little surprises. Straight to your inbox.</p>
+        <form class="newsletter-form" id="newsletter-form" novalidate>
+          <input type="email" id="newsletter-email" class="newsletter-input" placeholder="Enter your email address..." required>
+          <button type="submit" class="btn btn-primary">Join Club 💕</button>
+        </form>
+        <div id="newsletter-msg" class="newsletter-msg"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="site-logo">BAGÉRA<span>.</span></a>
+          <div class="footer-tagline">"Carry Your Little World."</div>
+          <p class="footer-desc">
+            An independent fashion brand celebrating playful, youthful and expressive accessories for the modern daydreamer.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="shop.html">Shop All Bags</a></li>
+            <li><a href="shop.html?category=Mini%20Bags">Mini Handbags</a></li>
+            <li><a href="shop.html?category=Tote%20Bags">Canvas Totes</a></li>
+            <li><a href="shop.html?category=Shoulder%20Bags">Shoulder Baguettes</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About BAGÉRA</a></li>
+            <li><a href="about.html#values">Studio Values</a></li>
+            <li><a href="about.html#craft">Craftsmanship</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Studio Concierge</h4>
+          <p style="font-size:0.88rem; color:var(--warm-ivory);">
+            💌 hello@bagera-studio.com<br>
+            📍 404 Cherry Blossom Lane, Studio 5B
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 BAGÉRA Studio. Handcrafted for Web Technology CCE-5. All rights reserved.</div>
+        <div>All product prices in INR (₹50–₹199).</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Shopping Cart Drawer -->
+  <div class="drawer-overlay" id="cart-overlay"></div>
+  <aside class="side-drawer" id="cart-drawer" aria-label="Shopping Bag">
+    <div class="drawer-header">
+      <h3 class="drawer-title">
+        <span>Your Shopping Bag</span>
+        <span class="badge-count cart-count-badge" style="display:none; position:static;">0</span>
+      </h3>
+      <button class="drawer-close-btn" id="cart-drawer-close" aria-label="Close cart">✕</button>
+    </div>
+    <div class="free-shipping-meter">
+      <div class="meter-text" id="free-shipping-text">Add ₹299 for <strong>FREE Delivery</strong> ✨</div>
+      <div class="meter-bar-track">
+        <div class="meter-bar-fill" id="free-shipping-progress"></div>
+      </div>
+    </div>
+    <div class="drawer-body" id="cart-drawer-items"></div>
+    <div class="drawer-footer">
+      <div class="drawer-subtotal-row">
+        <span>Subtotal</span>
+        <span id="cart-subtotal">₹0</span>
+      </div>
+      <div class="drawer-subtotal-row">
+        <span>Standard Shipping</span>
+        <span id="cart-shipping">₹0</span>
+      </div>
+      <div class="drawer-total-row">
+        <span>Total Amount</span>
+        <span id="cart-total">₹0</span>
+      </div>
+      <button class="btn btn-primary" id="cart-checkout-btn" style="width:100%;" disabled>
+        Proceed to Checkout →
+      </button>
+    </div>
+  </aside>
+
+  <!-- Wishlist Drawer -->
+  <div class="drawer-overlay" id="wishlist-overlay"></div>
+  <aside class="side-drawer" id="wishlist-drawer" aria-label="Wishlist">
+    <div class="drawer-header">
+      <h3 class="drawer-title">Saved Favourites ♡</h3>
+      <button class="drawer-close-btn" id="wishlist-drawer-close">✕</button>
+    </div>
+    <div class="drawer-body" id="wishlist-drawer-items"></div>
+  </aside>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="drawer-overlay" id="mobile-nav-overlay"></div>
+  <nav class="mobile-nav-drawer" id="mobile-nav-drawer">
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <a href="index.html" class="site-logo">BAGÉRA<span>.</span></a>
+      <button class="drawer-close-btn" id="mobile-nav-close">✕</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="index.html">Home</a>
+      <a href="shop.html" class="active">Shop All Drops</a>
+      <a href="shop.html#categories">Collections</a>
+      <a href="about.html">About BAGÉRA</a>
+    </div>
+  </nav>
+
+  <!-- Quick View Modal -->
+  <div class="modal-overlay" id="quick-view-modal">
+    <div class="modal-content-card">
+      <button class="modal-close-btn" onclick="closeQuickView()">✕</button>
+      <div id="quick-view-modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Checkout Modal -->
+  <div class="modal-overlay" id="checkout-modal">
+    <div class="modal-content-card checkout-modal-card">
+      <button class="modal-close-btn" id="checkout-modal-close">✕</button>
+      <div class="checkout-grid">
+        <div>
+          <span class="section-eyebrow">STEP 1 OF 1</span>
+          <h2 style="font-size:2rem; margin-bottom:20px;">Shipping &amp; Order Details</h2>
+          <form id="checkout-form" novalidate>
+            <div class="checkout-form-group">
+              <label for="checkout-name">Full Name *</label>
+              <input type="text" id="checkout-name" class="checkout-input" placeholder="e.g. Alisha Roy" required>
+            </div>
+            <div class="form-row">
+              <div class="checkout-form-group">
+                <label for="checkout-email">Email Address *</label>
+                <input type="email" id="checkout-email" class="checkout-input" placeholder="alisha@example.com" required>
+              </div>
+              <div class="checkout-form-group">
+                <label for="checkout-phone">Phone Number *</label>
+                <input type="tel" id="checkout-phone" class="checkout-input" placeholder="+91 98765 43210" required>
+              </div>
+            </div>
+            <div class="checkout-form-group">
+              <label for="checkout-address">Delivery Address *</label>
+              <textarea id="checkout-address" class="checkout-input" rows="2" placeholder="House/Flat No, Street, Landmark..." required></textarea>
+            </div>
+            <div class="form-row">
+              <div class="checkout-form-group">
+                <label for="checkout-city">City *</label>
+                <input type="text" id="checkout-city" class="checkout-input" placeholder="e.g. Bengaluru" required>
+              </div>
+              <div class="checkout-form-group">
+                <label for="checkout-postal">PIN Code *</label>
+                <input type="text" id="checkout-postal" class="checkout-input" placeholder="560001" required>
+              </div>
+            </div>
+            <div class="checkout-form-group" style="margin-top:20px;">
+              <label>Payment Method (Demonstration)</label>
+              <div style="background:var(--warm-ivory); padding:14px; border-radius:var(--radius-sm); border:1px solid var(--border-light); font-size:0.88rem; color:var(--deep-burgundy);">
+                💳 <strong>Pay on Delivery / UPI Scan on Arrival</strong>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%; margin-top:14px;">Confirm &amp; Place Order 🛍️</button>
+          </form>
+        </div>
+        <div class="checkout-summary-box">
+          <h3 class="checkout-summary-title">Order Summary</h3>
+          <div class="checkout-summary-items" id="checkout-order-items"></div>
+          <div style="border-top:1px solid var(--border-light); padding-top:14px; margin-top:14px;">
+            <div class="drawer-subtotal-row">
+              <span>Subtotal</span>
+              <span id="checkout-subtotal">₹0</span>
+            </div>
+            <div class="drawer-subtotal-row">
+              <span>Shipping</span>
+              <span id="checkout-shipping">₹0</span>
+            </div>
+            <div class="drawer-total-row" style="margin-top:12px; margin-bottom:0;">
+              <span>Total Amount</span>
+              <span id="checkout-total">₹0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Overlay Modal -->
+  <div class="search-modal-overlay" id="search-modal">
+    <div class="search-bar-wrap">
+      <input type="text" id="search-modal-input" class="search-modal-input" placeholder="Search bags, totes, charms or stickers..." autocomplete="off">
+      <button class="search-modal-close" id="search-modal-close">✕</button>
+    </div>
+    <div class="search-results-container" id="search-results-list"></div>
+  </div>
+
+  <!-- Vanilla JavaScript Dependencies -->
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>
