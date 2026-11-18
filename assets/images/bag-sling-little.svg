@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="slingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8F2"/>
+      <stop offset="100%" stop-color="#F5E4E2"/>
+    </linearGradient>
+    <linearGradient id="crossBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C24E5E"/>
+      <stop offset="70%" stop-color="#8F1728"/>
+      <stop offset="100%" stop-color="#6E101E"/>
+    </linearGradient>
+    <filter id="slingShd" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#44121D" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#slingGrad)" rx="24"/>
+  <circle cx="200" cy="200" r="130" fill="#FFFDFB" opacity="0.6"/>
+
+  <g filter="url(#slingShd)">
+    <!-- Crossbody diagonal strap -->
+    <path d="M100,50 L200,210" stroke="#5C0E1B" stroke-width="12" stroke-linecap="round"/>
+    <path d="M300,50 L200,210" stroke="#5C0E1B" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Semi-circular / Saddle sling bag body -->
+    <path d="M120,210 L280,210 C280,295 120,295 120,210 Z" fill="url(#crossBody)"/>
+    
+    <!-- Flap with soft round cut -->
+    <path d="M116,210 L284,210 C284,265 116,265 116,210 Z" fill="#8F1728" stroke="#44121D" stroke-width="2"/>
+    
+    <!-- Metal lock ring -->
+    <circle cx="200" cy="255" r="16" fill="none" stroke="#E5B26E" stroke-width="4"/>
+    <rect x="196" y="240" width="8" height="15" fill="#E5B26E" rx="2"/>
+  </g>
+</svg>
