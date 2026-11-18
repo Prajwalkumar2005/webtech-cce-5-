@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 280" width="100%" height="100%">
+  <rect width="350" height="280" rx="20" fill="#FFF8F2"/>
+  <circle cx="175" cy="140" r="90" fill="#E9BFC2" opacity="0.4"/>
+  <!-- Keychain charm with cherry + bow -->
+  <circle cx="175" cy="70" r="16" fill="none" stroke="#E5B26E" stroke-width="4"/>
+  <line x1="175" y1="86" x2="175" y2="120" stroke="#E5B26E" stroke-width="3" stroke-dasharray="4,2"/>
+  <!-- Bow charm -->
+  <circle cx="175" cy="130" r="6" fill="#8F1728"/>
+  <path d="M175,130 C155,115 145,135 168,135 Z" fill="#E9BFC2"/>
+  <path d="M175,130 C195,115 205,135 182,135 Z" fill="#E9BFC2"/>
+  <!-- Twin cherries hanging -->
+  <circle cx="160" cy="180" r="18" fill="#8F1728"/>
+  <circle cx="195" cy="186" r="17" fill="#A81D32"/>
+  <path d="M160,175 C168,145 175,136 175,136 C175,136 182,145 195,180" fill="none" stroke="#4B6B40" stroke-width="3"/>
+</svg>
