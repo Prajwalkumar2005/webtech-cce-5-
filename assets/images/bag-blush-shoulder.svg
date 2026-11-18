@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="blushBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDFB"/>
+      <stop offset="100%" stop-color="#FCEEEB"/>
+    </linearGradient>
+    <linearGradient id="blushLeather" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3D9D7"/>
+      <stop offset="50%" stop-color="#E9BFC2"/>
+      <stop offset="100%" stop-color="#DCA8AB"/>
+    </linearGradient>
+    <filter id="blushShd" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#44121D" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#blushBg)" rx="24"/>
+  <circle cx="200" cy="200" r="130" fill="#F3D9D7" opacity="0.4"/>
+
+  <g filter="url(#blushShd)">
+    <!-- 90s Curved Shoulder Strap -->
+    <path d="M120,200 C120,80 280,80 280,200" fill="none" stroke="#8F1728" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Silver/Gold eyelets -->
+    <circle cx="120" cy="205" r="7" fill="#E5B26E"/>
+    <circle cx="280" cy="205" r="7" fill="#E5B26E"/>
+
+    <!-- Baguette Body -->
+    <rect x="100" y="200" width="200" height="100" rx="28" fill="url(#blushLeather)" stroke="#8F1728" stroke-width="2"/>
+    
+    <!-- Front Minimalist Flap with decorative tab -->
+    <path d="M110,200 L290,200 L280,250 C270,265 130,265 120,250 Z" fill="#E9BFC2" stroke="#DCA8AB" stroke-width="1.5"/>
+    
+    <!-- Center Minimalist Cherry Accent -->
+    <circle cx="200" cy="245" r="14" fill="#8F1728"/>
+    <circle cx="197" cy="243" r="3" fill="#FFF8F2"/>
+
+    <!-- Zipper preview & stitching -->
+    <line x1="118" y1="205" x2="282" y2="205" stroke="#8F1728" stroke-width="2" stroke-dasharray="3,2"/>
+  </g>
+</svg>
