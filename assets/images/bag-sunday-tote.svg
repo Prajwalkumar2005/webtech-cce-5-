@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="stGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDFB"/>
+      <stop offset="100%" stop-color="#F2E6DF"/>
+    </linearGradient>
+    <filter id="stShd" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#44121D" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#stGrad)" rx="24"/>
+  <circle cx="200" cy="210" r="130" fill="#F3D9D7" opacity="0.3"/>
+
+  <g filter="url(#stShd)">
+    <!-- Round wooden/tortoiseshell handles -->
+    <circle cx="200" cy="160" r="45" fill="none" stroke="#8F1728" stroke-width="10"/>
+    
+    <!-- Mini Pleated Tote Shape -->
+    <path d="M130,195 L270,195 L285,325 C285,335 275,340 265,340 L135,340 C125,340 115,335 115,325 Z" fill="#FFF8F2" stroke="#E9BFC2" stroke-width="2"/>
+    
+    <!-- Ribbed texture / pleats -->
+    <line x1="150" y1="195" x2="145" y2="340" stroke="#F3D9D7" stroke-width="3"/>
+    <line x1="175" y1="195" x2="173" y2="340" stroke="#F3D9D7" stroke-width="3"/>
+    <line x1="200" y1="195" x2="200" y2="340" stroke="#F3D9D7" stroke-width="3"/>
+    <line x1="225" y1="195" x2="227" y2="340" stroke="#F3D9D7" stroke-width="3"/>
+    <line x1="250" y1="195" x2="255" y2="340" stroke="#F3D9D7" stroke-width="3"/>
+
+    <!-- Cute silk scarf tied to handle -->
+    <path d="M155,160 C150,185 140,210 135,230 C138,230 148,210 152,190 Z" fill="#8F1728"/>
+    <circle cx="155" cy="160" r="6" fill="#A81D32"/>
+  </g>
+</svg>
