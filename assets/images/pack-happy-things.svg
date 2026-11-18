@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="packGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8F2"/>
+      <stop offset="100%" stop-color="#FCEEEB"/>
+    </linearGradient>
+    <filter id="p3-shd" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#44121D" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <g filter="url(#p3-shd)">
+    <rect x="25" y="20" width="250" height="200" rx="18" fill="url(#packGrad3)" stroke="#8F1728" stroke-width="2.5"/>
+    <rect x="35" y="30" width="230" height="45" rx="8" fill="#8F1728"/>
+    <text x="150" y="58" font-family="'DM Serif Display', Georgia, serif" font-size="18" fill="#FFF8F2" text-anchor="middle" letter-spacing="1">LITTLE HAPPY THINGS</text>
+    
+    <!-- Flower & Coffee preview -->
+    <circle cx="100" cy="128" r="28" fill="#FFFFFF" stroke="#F3D9D7" stroke-width="2"/>
+    <circle cx="100" cy="128" r="10" fill="#E5B26E"/>
+    <circle cx="100" cy="112" r="7" fill="#F3D9D7"/>
+    <circle cx="100" cy="144" r="7" fill="#F3D9D7"/>
+    <circle cx="84" cy="128" r="7" fill="#F3D9D7"/>
+    <circle cx="116" cy="128" r="7" fill="#F3D9D7"/>
+
+    <!-- Coffee mini preview -->
+    <circle cx="195" cy="128" r="28" fill="#FFFFFF" stroke="#F3D9D7" stroke-width="2"/>
+    <rect x="186" y="116" width="18" height="25" rx="3" fill="#8FA87B"/>
+    <rect x="184" y="112" width="22" height="5" rx="2" fill="#8F1728"/>
+
+    <!-- bottom tag -->
+    <rect x="70" y="175" width="160" height="28" rx="14" fill="#44121D"/>
+    <text x="150" y="194" font-family="'DM Sans', sans-serif" font-size="12" font-weight="700" fill="#FFF8F2" text-anchor="middle">5 PASTEL STICKERS • ₹69</text>
+  </g>
+</svg>
