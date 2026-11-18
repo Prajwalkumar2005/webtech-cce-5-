@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 160" width="100%" height="100%">
+  <filter id="heart-shadow" x="-10%" y="-10%" width="125%" height="125%">
+    <feDropShadow dx="0" dy="4" stdDeviation="3.5" flood-color="#44121D" flood-opacity="0.16"/>
+  </filter>
+  <g filter="url(#heart-shadow)">
+    <!-- White border -->
+    <path d="M85,145 C85,145 15,100 15,50 C15,22 38,8 65,12 C78,14 85,24 85,24 C85,24 92,14 105,12 C132,8 155,22 155,50 C155,100 85,145 85,145 Z" 
+          fill="#FFFFFF" stroke="#F3D9D7" stroke-width="8" stroke-linejoin="round"/>
+    <!-- Heart fill -->
+    <path d="M85,138 C85,138 22,96 22,52 C22,28 42,16 65,20 C76,22 83,32 85,32 C87,32 94,22 105,20 C128,16 148,28 148,52 C148,96 85,138 85,138 Z" 
+          fill="#8F1728"/>
+    <!-- Inner soft shadow/highlight -->
+    <path d="M35,42 C32,58 45,82 72,112 C60,92 50,72 50,55 C50,42 42,36 35,42 Z" fill="#FFF8F2" opacity="0.3"/>
+    <text x="85" y="78" font-family="'DM Serif Display', Georgia, serif" font-size="20" fill="#FFF8F2" font-style="italic" text-anchor="middle" font-weight="bold">Bagéra</text>
+    <text x="85" y="96" font-family="'DM Sans', sans-serif" font-size="9" fill="#F3D9D7" text-anchor="middle" letter-spacing="2">LITTLE LOVE</text>
+  </g>
+</svg>
