@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 120" width="100%" height="100%">
+  <filter id="note-shadow" x="-10%" y="-10%" width="125%" height="125%">
+    <feDropShadow dx="2" dy="5" stdDeviation="4" flood-color="#44121D" flood-opacity="0.14"/>
+  </filter>
+  <g filter="url(#note-shadow)">
+    <!-- Washi tape at top -->
+    <rect x="75" y="2" width="60" height="18" fill="rgba(233,191,194,0.85)" rx="2" transform="rotate(-3 105 10)"/>
+    
+    <!-- Paper card -->
+    <rect x="10" y="14" width="200" height="96" rx="10" fill="#FFF8F2" stroke="#F3D9D7" stroke-width="2"/>
+    
+    <!-- Red mini heart pin -->
+    <circle cx="28" cy="32" r="5" fill="#8F1728"/>
+    <circle cx="28" cy="32" r="2" fill="#FFF8F2"/>
+
+    <!-- Handwritten styled text -->
+    <text x="110" y="52" font-family="'Caveat', 'Playfair Display', cursive, serif" font-size="24" font-weight="700" fill="#8F1728" text-anchor="middle">
+      made for you ♡
+    </text>
+    <text x="110" y="78" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#44121D" text-anchor="middle" letter-spacing="1.5">
+      STUDIO EDITION • 100% LOVE
+    </text>
+    
+    <!-- Little hand doodle stars -->
+    <path d="M185,32 L187,38 L193,40 L187,42 L185,48 L183,42 L177,40 L183,38 Z" fill="#E5B26E"/>
+    <path d="M35,80 L36,83 L39,84 L36,85 L35,88 L34,85 L31,84 L34,83 Z" fill="#E5B26E"/>
+  </g>
+</svg>
