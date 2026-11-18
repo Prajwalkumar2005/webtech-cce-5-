@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <filter id="star-shadow" x="-10%" y="-10%" width="125%" height="125%">
+    <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#44121D" flood-opacity="0.16"/>
+  </filter>
+  <g filter="url(#star-shadow)">
+    <!-- White border -->
+    <path d="M80,8 L98,58 L152,62 L110,98 L124,150 L80,122 L36,150 L50,98 L8,62 L62,58 Z" 
+          fill="#FFFFFF" stroke="#F3D9D7" stroke-width="10" stroke-linejoin="round"/>
+    <!-- Gold / Warm Sparkle Star -->
+    <path d="M80,14 L96,60 L146,64 L106,97 L120,144 L80,118 L40,144 L54,97 L14,64 L64,60 Z" 
+          fill="#E5B26E"/>
+    <!-- Highlight facet -->
+    <path d="M80,14 L96,60 L80,118 L64,60 Z" fill="#F4CB95"/>
+    <!-- Sparkles -->
+    <circle cx="80" cy="75" r="4" fill="#FFFFFF"/>
+    <circle cx="115" cy="50" r="2.5" fill="#FFFFFF"/>
+    <circle cx="45" cy="50" r="2.5" fill="#FFFFFF"/>
+  </g>
+</svg>
