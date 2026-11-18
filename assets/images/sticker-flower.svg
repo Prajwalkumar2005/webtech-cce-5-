@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="100%" height="100%">
+  <filter id="flower-shadow" x="-10%" y="-10%" width="125%" height="125%">
+    <feDropShadow dx="0" dy="4" stdDeviation="3.5" flood-color="#44121D" flood-opacity="0.15"/>
+  </filter>
+  <g filter="url(#flower-shadow)">
+    <!-- White Outline -->
+    <circle cx="90" cy="90" r="76" fill="#FFFFFF"/>
+    
+    <!-- 8 Petals -->
+    <g fill="#F3D9D7" stroke="#E9BFC2" stroke-width="2">
+      <ellipse cx="90" cy="38" rx="20" ry="26"/>
+      <ellipse cx="90" cy="142" rx="20" ry="26"/>
+      <ellipse cx="38" cy="90" rx="26" ry="20"/>
+      <ellipse cx="142" cy="90" rx="26" ry="20"/>
+      <ellipse cx="53" cy="53" rx="22" ry="22" transform="rotate(-45 53 53)"/>
+      <ellipse cx="127" cy="127" rx="22" ry="22" transform="rotate(-45 127 127)"/>
+      <ellipse cx="127" cy="53" rx="22" ry="22" transform="rotate(45 127 53)"/>
+      <ellipse cx="53" cy="127" rx="22" ry="22" transform="rotate(45 53 127)"/>
+    </g>
+
+    <!-- Center -->
+    <circle cx="90" cy="90" r="26" fill="#8F1728"/>
+    <circle cx="86" cy="86" r="4" fill="#FFF8F2" opacity="0.8"/>
+    <!-- Cute smiley face inside flower center -->
+    <circle cx="83" cy="88" r="2.5" fill="#FFF8F2"/>
+    <circle cx="97" cy="88" r="2.5" fill="#FFF8F2"/>
+    <path d="M85,96 Q90,102 95,96" stroke="#FFF8F2" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>
