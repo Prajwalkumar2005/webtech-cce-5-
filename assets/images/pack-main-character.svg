@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="packGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDFB"/>
+      <stop offset="100%" stop-color="#E9BFC2"/>
+    </linearGradient>
+    <filter id="p2-shd" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#44121D" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <g filter="url(#p2-shd)">
+    <rect x="25" y="20" width="250" height="200" rx="18" fill="url(#packGrad2)" stroke="#8F1728" stroke-width="2.5"/>
+    <rect x="35" y="30" width="230" height="45" rx="8" fill="#44121D"/>
+    <text x="150" y="58" font-family="'DM Serif Display', Georgia, serif" font-size="18" fill="#FFF8F2" text-anchor="middle" letter-spacing="1">MAIN CHARACTER</text>
+    
+    <!-- Big star preview -->
+    <polygon points="100,95 107,118 130,120 112,135 118,158 100,145 82,158 88,135 70,120 93,118" fill="#E5B26E" stroke="#FFFFFF" stroke-width="3"/>
+    
+    <!-- Heart badge preview -->
+    <circle cx="190" cy="128" r="30" fill="#8F1728" stroke="#FFFFFF" stroke-width="3"/>
+    <text x="190" y="133" font-family="'DM Serif Display', serif" font-size="14" fill="#FFF8F2" text-anchor="middle" font-style="italic">ICONIC</text>
+
+    <!-- bottom tag -->
+    <rect x="65" y="175" width="170" height="28" rx="14" fill="#8F1728"/>
+    <text x="150" y="194" font-family="'DM Sans', sans-serif" font-size="12" font-weight="700" fill="#FFF8F2" text-anchor="middle">8 GLOSS STICKERS • ₹89</text>
+  </g>
+</svg>
