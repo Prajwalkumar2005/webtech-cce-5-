@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8F2"/>
+      <stop offset="100%" stop-color="#FCEEEB"/>
+    </linearGradient>
+    <linearGradient id="bagLeather" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A81D32"/>
+      <stop offset="60%" stop-color="#8F1728"/>
+      <stop offset="100%" stop-color="#5C0E1B"/>
+    </linearGradient>
+    <filter id="bagDrop" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#44121D" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Background container -->
+  <rect width="400" height="400" fill="url(#bgGrad)" rx="24"/>
+  <circle cx="200" cy="200" r="140" fill="#F3D9D7" opacity="0.4"/>
+
+  <g filter="url(#bagDrop)">
+    <!-- Top Handle -->
+    <path d="M140,190 C140,105 260,105 260,190" fill="none" stroke="#5C0E1B" stroke-width="16" stroke-linecap="round"/>
+    <path d="M140,190 C140,110 260,110 260,190" fill="none" stroke="#8F1728" stroke-width="12" stroke-linecap="round"/>
+    
+    <!-- Handle metallic buckles -->
+    <rect x="132" y="185" width="16" height="12" rx="3" fill="#E5B26E"/>
+    <rect x="252" y="185" width="16" height="12" rx="3" fill="#E5B26E"/>
+
+    <!-- Bag Body -->
+    <path d="M110,190 C105,275 125,305 140,310 L260,310 C275,305 295,275 290,190 Z" fill="url(#bagLeather)"/>
+    
+    <!-- Front Flap -->
+    <path d="M115,190 L125,250 C125,258 200,268 275,250 L285,190 Z" fill="#8F1728"/>
+    
+    <!-- Flap edge stitch line -->
+    <path d="M120,195 L129,246 C155,256 245,256 271,246 L280,195" fill="none" stroke="#E9BFC2" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.7"/>
+
+    <!-- Gold Twist Clasp Lock -->
+    <rect x="190" y="240" width="20" height="24" rx="4" fill="#E5B26E"/>
+    <circle cx="200" cy="252" r="5" fill="#44121D"/>
+    
+    <!-- Subtle body sheen -->
+    <path d="M130,205 C130,260 142,295 155,298 C145,290 138,260 138,205 Z" fill="#FFF8F2" opacity="0.15"/>
+  </g>
+
+  <!-- Cute brand detail tag -->
+  <rect x="280" y="270" width="46" height="20" rx="4" fill="#FFF8F2" stroke="#8F1728" stroke-width="1"/>
+  <text x="303" y="284" font-family="'DM Serif Display', Georgia, serif" font-size="10" fill="#8F1728" text-anchor="middle">BAGÉRA</text>
+</svg>
