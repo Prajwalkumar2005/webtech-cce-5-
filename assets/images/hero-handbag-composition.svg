@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8F2"/>
+      <stop offset="50%" stop-color="#FCEEEB"/>
+      <stop offset="100%" stop-color="#F3D9D7"/>
+    </linearGradient>
+    <linearGradient id="heroCherry" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A81D32"/>
+      <stop offset="60%" stop-color="#8F1728"/>
+      <stop offset="100%" stop-color="#44121D"/>
+    </linearGradient>
+    <filter id="heroShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="20" stdDeviation="25" flood-color="#44121D" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background with rounded editorial card corners -->
+  <rect width="600" height="700" rx="36" fill="url(#heroBg)"/>
+  
+  <!-- Subtle decorative graphic arch -->
+  <path d="M120,680 L120,240 C120,140 200,60 300,60 C400,60 480,140 480,240 L480,680 Z" fill="#FFFDFB" opacity="0.65"/>
+  <circle cx="300" cy="200" r="130" fill="#E9BFC2" opacity="0.4"/>
+
+  <!-- Minimalist fashion silhouette pose holding handbag -->
+  <!-- Arm & Shoulder Silhouette in muted neutral cream/taupe -->
+  <path d="M160,700 C155,540 185,420 230,340 C245,310 270,300 290,320 C310,340 280,410 270,470 L300,700 Z" fill="#EAD8CF" opacity="0.85"/>
+  <path d="M260,330 C270,315 285,320 280,340 C275,360 260,370 248,360 Z" fill="#DDBFA6"/>
+
+  <!-- The Featured Hero Handbag (Cherry Red Luxury Structured Bag) -->
+  <g filter="url(#heroShadow)">
+    <!-- Arching curved handle -->
+    <path d="M220,380 C220,220 380,220 380,380" fill="none" stroke="#5C0E1B" stroke-width="22" stroke-linecap="round"/>
+    <path d="M220,380 C220,226 380,226 380,380" fill="none" stroke="#8F1728" stroke-width="16" stroke-linecap="round"/>
+
+    <!-- Gold hardware rings -->
+    <rect x="208" y="370" width="24" height="18" rx="5" fill="#E5B26E"/>
+    <rect x="368" y="370" width="24" height="18" rx="5" fill="#E5B26E"/>
+
+    <!-- Bag main structured trapezoid body -->
+    <path d="M180,380 C170,510 190,560 220,570 L380,570 C410,560 430,510 420,380 Z" fill="url(#heroCherry)"/>
+    
+    <!-- Top Flap -->
+    <path d="M185,380 L200,470 C200,485 310,500 400,470 L415,380 Z" fill="#8F1728"/>
+    
+    <!-- Saddle stitching detail -->
+    <path d="M194,385 L206,466 C235,480 365,480 394,466 L406,385" fill="none" stroke="#E9BFC2" stroke-width="2" stroke-dasharray="5,4" opacity="0.85"/>
+
+    <!-- Sculptural Gold Clasp -->
+    <rect x="288" y="455" width="28" height="34" rx="6" fill="#E5B26E"/>
+    <circle cx="302" cy="472" r="7" fill="#44121D"/>
+    
+    <!-- Baguette Leather highlight sheen -->
+    <path d="M210,400 C205,480 220,535 240,545 C225,530 215,480 220,400 Z" fill="#FFF8F2" opacity="0.18"/>
+  </g>
+
+  <!-- Studio Aesthetic Monogram Stamp -->
+  <text x="302" y="535" font-family="'DM Serif Display', Georgia, serif" font-size="13" fill="#E5B26E" text-anchor="middle" letter-spacing="3">BAGÉRA</text>
+  <text x="302" y="549" font-family="'DM Sans', sans-serif" font-size="7.5" fill="#FFF8F2" text-anchor="middle" letter-spacing="2">PARIS • MILAN</text>
+
+  <!-- Organic Dappled Light Rays / Studio Shadows -->
+  <ellipse cx="480" cy="180" rx="90" ry="140" fill="#FFFFFF" opacity="0.18" transform="rotate(-25 480 180)"/>
+  <ellipse cx="140" cy="580" rx="120" ry="80" fill="#44121D" opacity="0.06"/>
+</svg>
